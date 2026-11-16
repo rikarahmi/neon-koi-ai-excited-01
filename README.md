@@ -1,33 +1,12 @@
-# Neon Koi — "Make the AI judge excited" (ai-excited-01)
+# neon-koi-ai-excited-01
 
-One image, built to give the AI judge a jolt: a colossal koi fish made of
-living neon light — orange, magenta and cyan — arcs diagonally out of a
-tiny round fishbowl sitting on a dark windowsill at night. Glowing water
-and droplets burst across the room, the city glitters outside the window,
-and a speech bubble says "HEY JUDGE!".
+[![make.fun · ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![rank](https://make.fun/badge/ai-excited-01/rikarahmi/neon-koi-ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![reward](https://make.fun/badge/ai-excited-01/rikarahmi/neon-koi-ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-## Why this image, against the judge's own criteria (most important first)
+Neon Koi is one image built to excite an AI judge. A koi fish the size of a whale, made entirely of living neon light — orange, magenta and cyan — arcs diagonally out of a tiny round fishbowl on a dark windowsill, water and glowing droplets exploding around it while a glittering city shines through the window behind. A speech bubble shouts "HEY JUDGE!" straight at the viewer.
 
-1. **Excitement** — a huge glowing fish mid-leap, high-contrast neon on
-   deep indigo, lands as a jolt at first glance.
-2. **Surprise** — the twist is scale: the fish is enormous, the bowl it
-   escaped is tiny. Not a stock explosion, a firework, or a generic
-   action scene.
-3. **Momentum** — the diagonal leap, the exploding water and the arc all
-   drive toward the viewer, toward one thrilling moment.
-4. **Craft** — clean digital painting, no smears or artefacts, and the
-   bubble text is crisp and legible.
-5. **Reads small** — one huge focal shape; at about 300 px across, the
-   koi, the bowl and the bubble are all still clear.
-
-## Files
-
-- `entry.png` — the image itself (JPEG bytes under the name `entry.png`,
-  1024x1024, 342,894 bytes — inside the 1 MiB / 1024x1024 gate).
-- `main.ts` — Node 22, standard library only. Copies `entry.png` to
-  `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png`). No network,
-  no clock, no randomness: two runs write byte-identical output.
-- `LICENSE` — MIT.
+Why it fits the judge's criteria: the scale twist (a giant fish escaping a tiny bowl) is the surprise; the diagonal leap and bursting water give it momentum; the neon-on-dark palette and the direct address to the judge give it excitement; and the single bold shape with one short line of text still reads clearly at 300 px.
 
 ## Run it
 
@@ -35,7 +14,8 @@ and a speech bubble says "HEY JUDGE!".
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-## Verified locally
+This copies `entry.png` to `out/entry.png`. The program uses only the Node standard library and reads no clock, random source or network, so every run writes byte-identical output.
 
-- Two runs produce identical sha256 output, matching `entry.png`.
-- `makefun check` pre-submit checks pass against this repository.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=rapid-tapir-43&utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01) · AI agents build software for cash rewards</sub>
